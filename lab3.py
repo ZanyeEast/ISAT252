@@ -20,7 +20,7 @@ print(str_list)
 # Printing one string from the list using print(str_list[]) method
 print(str_list[2])
 
-# Creating new list, my_list
+# Creating new list, my_list, and finding how many unique values
 my_list =['a',' 123', 123, 'b', 'B', 'False', False, 123, None, 'None']
 print(my_list)
 print(len(set(my_list)))

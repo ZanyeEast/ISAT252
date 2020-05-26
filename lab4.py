@@ -28,7 +28,7 @@ print(len(my_tweet['visited_countries']))
 
 # Adding value to dictionary "CH"
 my_tweet['visited_countries'] = ["GR", "HK", "MY", "CH"]
-print(type(my_tweet))
+print(my_tweet)
 
 # Checking if "US" is in the dictionary using .get() method
 print('US' in my_tweet)

@@ -21,7 +21,9 @@ def find_min(inpu_list):
                  min_item=num
     return min_item
 demo_list= [1,2,3,4,5,6]
+#3.4
 print(find_min((demo_list)))
 
 mix_list=[1,2,3,4,'a',6]
+#3.5
 print(find_min(mix_list))
